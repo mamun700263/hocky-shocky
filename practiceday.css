@@ -1,0 +1,31 @@
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+.nav-items:hover,.nav-link:hover{
+    color: red;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    height: 75vh;
+}
+
+.carousel-caption{
+    background-color: black;
+    width: 20%;
+    
+}
+
+.carousel-caption-side {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
